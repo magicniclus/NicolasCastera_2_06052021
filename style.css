@@ -196,7 +196,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 622px) and (max-width: 1024px){
-    .section-1-in h3, p {
+    .section-1-in h3, .section-1-in p {
         text-align: center;
     }
 }

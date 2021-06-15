@@ -1821,8 +1821,14 @@ input:focus {
 
 .foot .a-propos, .nos-hebergements, .assistance {
     height: 100%;
-    width: 300px;
+    width: 500px;
 } 
+
+@media screen and (max-width: 1370px) {
+    .foot .a-propos, .nos-hebergements, .assistance {
+        width: 300px;
+    }
+}
 
 @media screen and (max-width: 900px) {
     .foot .a-propos, .nos-hebergements, .assistance {

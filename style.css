@@ -1997,9 +1997,9 @@ input:focus {
     }
 }
 
-@media screen and (min-width: 901px) and (max-width: 940px) {
+@media screen and (min-width: 701px) and (max-width: 940px) {
     .foot .a-propos, .nos-hebergements, .assistance {
-        width: 210px;
+        width: 225px;
     }
 }
 

@@ -1382,6 +1382,10 @@ input:focus {
     .cannabiere img, .port img, .mouettes img, .mer img, .panier img, .amina img {
         width: 96%;
     }
+
+    .article-1 .afficher {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 350px) and (max-width:414px) {

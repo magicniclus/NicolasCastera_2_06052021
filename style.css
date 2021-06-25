@@ -30,11 +30,12 @@ a {
 /*--Nav-Bar-1--*/
 
 header {
+    height: 100%;
     width: 100%;
-    height: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .header-in {
@@ -42,41 +43,36 @@ header {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
     align-items: center;
 }
 
-.nav-bar {
-    padding: 0;
-    margin: 0;
-    width: 486px;
-    height: 100%;
+.nav-un, .nav-deux, .nav-trois {
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    width: 12%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-li {
-    list-style: none;
-    height: 100%;
-    width: 32%;
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.hebergement, .activite, .subscribe {
-    text-decoration: none;
-    color: black;
-    padding-top: 50px;
-    width: 100%;
+.head-logo {
+    width: 64%;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
-.subscribe {
+.nav-trois {
     color: #0065FC;
 }
 
-.subscribe:hover {
+.nav-trois span {
+    font-weight: bold;
+}
+
+.nav-trois:hover {
     font-size: large;
 }
 
@@ -85,91 +81,64 @@ a:hover {
     cursor: pointer;
 }
 
-.hebergement:hover, .activite:hover{
-    border-top: 2px solid #0065FC;
-}
-
-@media screen and (max-width: 622px) {
+@media screen and  (max-width: 1120px){
     .header-in {
-        display: none;
-    }
-}
-
-
-
-/*--Nav-Bar-2--*/
-
-@media screen and (min-width: 623px) {
-    .header-in-2 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 622px) {
-    .header-in-2 {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        margin-bottom: 2em;
     }
 
-    .nav-bar-2-1 {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 20px;
+    .header-in :nth-child(1){
+        width: 80%;
+    } 
+
+    .header-in :nth-child(1) img {
+            width: 7em
     }
 
-    .nav-bar-2-1 .logo-2 {
+    .header-in :nth-child(2){
+        order: 1;
+        width: 50%;
+        height: 25px;
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 1em;
+    } 
+
+    .header-in .nav-un:hover {
+        border-bottom: 4px solid #0065FC;
+        padding-bottom: 1em;
+    }
+
+    .header-in :nth-child(3){
+        order: 1;
+        width: 50%;
+        height: 25px;
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 1em;
+    }
+
+    .header-in .nav-deux:hover {
+        border-bottom: 4px solid #0065FC;
+        padding-bottom: 1em;
+    }
+    
+    .header-in :nth-child(4){
+        width: 20%;
+    } 
+
+    .header-in .head-logo img {
         margin-left: 20px;
     }
+}
 
-    .nav-bar-2-1 .subscribe-2 {
-        margin-right: 20px;
-    }
+@media screen and  (max-width: 800px) {
+    .header-in :nth-child(4) span {
+        padding-right: 20px;
+    } 
+}
 
-    .nav-bar-2-1 .subscribe-2 a{
-        color: #0065FC;
-    }
-
-    .nav-bar-2-2 {
-        margin-top: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .nav-bar-2-2 .hebergements-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 50%;
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom: 10px;
-    }
-
-    .nav-bar-2-2 .hebergements-2:hover {
-        border-bottom: 4px solid #0065FC;
-        padding-bottom: 10px;
-    }
-
-    .nav-bar-2-2 .activite-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 50%;
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom: 10px;
-    }
-
-    .nav-bar-2-2 .activite-2:hover {
-        border-bottom: 4px solid #0065FC;
-        padding-bottom: 10px;
-    }
-
-
+@media screen and  (max-width: 425px) {
+    .header-in :nth-child(1) {
+        width: 70%;
+    } 
 }
 
 
@@ -195,7 +164,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 622px) and (max-width: 1024px){
-    .section-1-in h3, p {
+    .section-1-in h1, h2 {
         text-align: center;
     }
 }

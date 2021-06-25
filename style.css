@@ -65,7 +65,7 @@ li {
     text-align: center;
 }
 
-.hebergement, .activité, .subscribe {
+.hebergement, .activite, .subscribe {
     text-decoration: none;
     color: black;
     padding-top: 50px;
@@ -85,7 +85,7 @@ a:hover {
     cursor: pointer;
 }
 
-.hebergement:hover, .activité:hover{
+.hebergement:hover, .activite:hover{
     border-top: 2px solid #0065FC;
 }
 
@@ -155,7 +155,7 @@ a:hover {
         padding-bottom: 10px;
     }
 
-    .nav-bar-2-2 .activité-2 {
+    .nav-bar-2-2 .activite-2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -164,7 +164,7 @@ a:hover {
         padding-bottom: 10px;
     }
 
-    .nav-bar-2-2 .activité-2:hover {
+    .nav-bar-2-2 .activite-2:hover {
         border-bottom: 4px solid #0065FC;
         padding-bottom: 10px;
     }
@@ -230,6 +230,19 @@ a:hover {
 .section-1-in p {
     margin-top: 10px;
 }
+
+.section-1 .section-1-in h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.section-1 .section-1-in h2 {
+   margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: initial;
+}
+
 
 /*---Section 2---*/
 
@@ -424,6 +437,12 @@ input:focus {
 /*-Économique-*/
 
 .section-3-in h3 {
+    margin: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.section-3-in span {
     margin: 0;
     margin-left: 10px;
     font-weight: bold;
@@ -706,6 +725,21 @@ input:focus {
     align-items: center;
 }
 
+.section-4-in .article-1 h4, h3 {
+    margin: 0;
+}
+
+.section-4-in .article-1 h3 {
+    font-size: 16px;
+}
+
+.section-4-in .article-1 h4 {
+    font-size: 14px;
+    font-weight: initial;
+    margin-top: 6px;
+}
+
+
 @media screen and (max-width: 1270px) {
     .section-4-in .article-1 {
         width: 50%;
@@ -818,6 +852,13 @@ input:focus {
     object-fit: cover;
 }
 
+
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .cannabiere img {
+        width: 98%;
+    }
+}
+
 .cannabiere .note {
     width: 80%;
     height: 45%;
@@ -834,7 +875,7 @@ input:focus {
 
 .cannabiere .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .liste-hebergement .star-1 .fa-star {
@@ -870,6 +911,12 @@ input:focus {
     object-fit: cover;
 }
 
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .port img {
+        width: 98%;
+    }
+}
+
 .port .note {
     width: 80%;
     height: 45%;
@@ -886,7 +933,7 @@ input:focus {
 
 .port .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 /*Mouettes*/
@@ -906,6 +953,12 @@ input:focus {
     object-fit: cover;
 }
 
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .mouettes img {
+        width: 98%;
+    }
+}
+
 .mouettes .note {
     width: 80%;
     height: 45%;
@@ -922,7 +975,7 @@ input:focus {
 
 .mouettes .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 
@@ -943,6 +996,12 @@ input:focus {
     object-fit: cover;
 }
 
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .mer img {
+        width: 98%;
+    }
+}
+
 .mer .note {
     width: 80%;
     height: 45%;
@@ -959,7 +1018,7 @@ input:focus {
 
 .mer .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 
@@ -980,6 +1039,12 @@ input:focus {
     object-fit: cover;
 }
 
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .panier img {
+        width: 98%;
+    }
+}
+
 .panier .note {
     width: 80%;
     height: 45%;
@@ -996,7 +1061,7 @@ input:focus {
 
 .panier .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 /*Port*/
@@ -1016,6 +1081,12 @@ input:focus {
     object-fit: cover;
 }
 
+@media screen and (min-width: 415px) and (max-width:622px) {
+    .amina img {
+        width: 98%;
+    }
+}
+
 .amina .note {
     width: 80%;
     height: 45%;
@@ -1032,7 +1103,7 @@ input:focus {
 
 .amina .note .star {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .article-1 .afficher {
@@ -1071,6 +1142,21 @@ input:focus {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.section-4-in .article-2 h4, h3 {
+    margin: 0;
+}
+
+.section-4-in .article-2 h3 {
+    font-size: 16px;    
+}
+
+.section-4-in .article-2 h4 {
+    font-size: 14px;
+    font-weight: initial;
+    margin-top: 6px;
+    margin-left: 15px;
 }
 
 @media screen and (max-width: 1270px) {
@@ -1157,6 +1243,10 @@ input:focus {
     }
 }
 
+.article-2 .article-2-in .card .fas {
+    margin-bottom: 7px;
+}
+
 
 /*Card 1*/
 
@@ -1194,7 +1284,7 @@ input:focus {
 
 }
 
-.article-2 .article-2-in .card .card-1 .card-1-2 .card-1-2-top h4 {
+.article-2 .article-2-in .card .card-1 .card-1-2 .card-1-2-top h3 {
     margin: 0;
     margin-top: 20px;
     margin-left: 15px;
@@ -1266,7 +1356,7 @@ input:focus {
 
 }
 
-.article-2 .article-2-in .card .card-2 .card-2-2 .card-2-2-top h4 {
+.article-2 .article-2-in .card .card-2 .card-2-2 .card-2-2-top h3 {
     margin: 0;
     margin-top: 20px;
     margin-left: 15px;
@@ -1337,7 +1427,7 @@ input:focus {
 
 }
 
-.article-2 .article-2-in .card .card-3 .card-3-2 .card-3-2-top h4 {
+.article-2 .article-2-in .card .card-3 .card-3-2 .card-3-2-top h3 {
     margin: 0;
     margin-top: 20px;
     margin-left: 15px;
@@ -1382,7 +1472,7 @@ input:focus {
     .cannabiere img, .port img, .mouettes img, .mer img, .panier img, .amina img {
         width: 96%;
     }
-
+    
     .article-1 .afficher {
         margin-top: 10px;
     }
@@ -1391,6 +1481,12 @@ input:focus {
 @media screen and (min-width: 350px) and (max-width:414px) {
     .cannabiere img, .port img, .mouettes img, .mer img, .panier img, .amina img {
         width: 97%;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width:622px) {
+    .article-2 .article-2-in .card .card-1 .card-1-1 img, .article-2 .article-2-in .card .card-2 .card-2-1 img, .article-2 .article-2-in .card .card-3 .card-3-1 img  {
+        width: 98%;
     }
 }
 
@@ -1434,12 +1530,12 @@ input:focus {
 
 /*---Titre---*/
 
-.section-5 .section-5-in .activités h2 {
+.section-5 .section-5-in .activites h2 {
     margin: 0;
 }
 
 @media screen and (max-width: 622px) {
-    .section-5 .section-5-in .activités h2  {
+    .section-5 .section-5-in .activites h2  {
         margin-top: 20px;
     }
 }
@@ -1490,8 +1586,9 @@ input:focus {
     border-radius: 15px 15px 0 0;
 }
 
-.section-5 .section-5-in .carroussel .colonne-1 h4 {
+.section-5 .section-5-in .carroussel .colonne-1 h3 {
     margin-left: 25px;
+    margin-top: 12px;
     font-weight: bold;
 }
 
@@ -1512,7 +1609,7 @@ input:focus {
         border-radius: 15px 15px 0 0;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-1 h4{
+    .section-5 .section-5-in .carroussel .colonne-1 h3{
         height: 50px;
         width: 80%;
         display: flex;
@@ -1521,7 +1618,7 @@ input:focus {
 }
 
 @media screen and (min-width: 700px) and (max-width:850px) {
-    .section-5 .section-5-in .carroussel .colonne-1 h4 {
+    .section-5 .section-5-in .carroussel .colonne-1 h3 {
         margin-left: 10px;
     }
 }
@@ -1560,7 +1657,7 @@ input:focus {
     align-items: center;
 }
 
-.section-5 .section-5-in .carroussel .colonne-2 .colonne-2-1 .titre h4 {
+.section-5 .section-5-in .carroussel .colonne-2 .colonne-2-1 .titre h3 {
     margin: 0;
     margin-left: 25px;
 }
@@ -1589,7 +1686,7 @@ input:focus {
     align-items: center;
 }
 
-.section-5 .section-5-in .carroussel .colonne-2 .colonne-2-2 .titre h4 {
+.section-5 .section-5-in .carroussel .colonne-2 .colonne-2-2 .titre h3 {
     margin: 0;
     margin-left: 25px;
 }
@@ -1620,14 +1717,14 @@ input:focus {
         align-items: center;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-2-2 .titre h4 {
+    .section-5 .section-5-in .carroussel .colonne-2-2 .titre h3 {
         margin: 0;
         margin-left: 10px;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width:850px) {
-    .section-5 .section-5-in .carroussel .colonne-2 .colonne-2-1 .titre h4, .section-5 .section-5-in .carroussel .colonne-2 .colonne-2-2 .titre h4 {
+    .section-5 .section-5-in .carroussel .colonne-2 .colonne-2-1 .titre h3, .section-5 .section-5-in .carroussel .colonne-2 .colonne-2-2 .titre h3 {
         margin-left: 10px;
     }
 }
@@ -1647,9 +1744,10 @@ input:focus {
     border-radius: 15px 15px 0 0;
 }
 
-.section-5 .section-5-in .carroussel .colonne-3 h4 {
+.section-5 .section-5-in .carroussel .colonne-3 h3 {
     margin-left: 25px;
     font-weight: bold;
+    margin-top: 12px;
 }
 
 @media screen and (max-width: 622px) {
@@ -1669,21 +1767,21 @@ input:focus {
         border-radius: 15px 15px 0 0;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-3 h4{
+    .section-5 .section-5-in .carroussel .colonne-3 h3{
         height: 50px;
         width: 80%;
         display: flex;
         align-items: center;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-3 h4 {
+    .section-5 .section-5-in .carroussel .colonne-3 h3 {
         margin: 0;
         margin-left: 25px;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width:850px) {
-    .section-5 .section-5-in .carroussel .colonne-3 h4 {
+    .section-5 .section-5-in .carroussel .colonne-3 h3 {
         margin: 0;
         margin-left: 10px;
         margin-top: 7px;
@@ -1726,7 +1824,7 @@ input:focus {
     align-items: center;
 }
 
-.section-5 .section-5-in .carroussel .colonne-4 .colonne-4-1 .titre h4 {
+.section-5 .section-5-in .carroussel .colonne-4 .colonne-4-1 .titre h3 {
     margin: 0;
     margin-left: 25px;
 }
@@ -1755,14 +1853,14 @@ input:focus {
         align-items: center;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-4-1 .titre h4 {
+    .section-5 .section-5-in .carroussel .colonne-4-1 .titre h3 {
         margin: 0;
         margin-left: 25px;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width:850px) {
-    .section-5 .section-5-in .carroussel .colonne-4 .colonne-4-1 .titre h4, .section-5 .section-5-in .carroussel .colonne-4 .colonne-4-2 .titre h4{
+    .section-5 .section-5-in .carroussel .colonne-4 .colonne-4-1 .titre h3, .section-5 .section-5-in .carroussel .colonne-4 .colonne-4-2 .titre h3{
         margin-left: 10px;
     }
 }
@@ -1791,7 +1889,7 @@ input:focus {
     align-items: center;
 }
 
-.section-5 .section-5-in .carroussel .colonne-4 .colonne-4-2 .titre h4 {
+.section-5 .section-5-in .carroussel .colonne-4 .colonne-4-2 .titre h3 {
     margin: 0;
     margin-left: 25px;
 }
@@ -1821,14 +1919,14 @@ input:focus {
         align-items: center;
     }
     
-    .section-5 .section-5-in .carroussel .colonne-2-2 .titre h4 {
+    .section-5 .section-5-in .carroussel .colonne-2-2 .titre h3 {
         margin: 0;
         margin-left: 25px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .carroussel h4 {
+    .carroussel h3 {
         margin: 0;
         margin-top: 10px;
         margin-left: 5px;
@@ -1881,28 +1979,41 @@ input:focus {
     }
 }
 
-.foot .a-propos h4{
+.foot .a-propos h2{
+    margin: 0;
     margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .foot .a-propos p{
-    margin-top: 5px;
+    margin-top: 7px;
+    font-size: 14px;
 }
 
-.foot .nos-hebergements h4{
+.foot .nos-hebergements h2{
+    margin: 0;
     margin-top: 50px;
+    font-size: 18px;
+
+    margin-bottom: 15px;
 }
 
 .foot .nos-hebergements p{
-    margin-top: 5px;
+    margin-top: 7px;
+    font-size: 14px;
 }
 
-.foot .assistance h4{
+.foot .assistance h2{
+    margin: 0;
     margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .foot .assistance p{
-    margin-top: 5px;
+    margin-top: 7px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1927,7 +2038,7 @@ input:focus {
         flex-direction: column;
     }
 
-    .foot h4 {
+    .foot h3 {
         margin-top: 20px;
     }
 

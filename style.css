@@ -27,7 +27,7 @@ a {
 /*---Header---*/
 
 
-/*--Nav-Bar-1--*/
+/*--Nav-Bar--*/
 
 header {
     height: 100%;
@@ -57,6 +57,10 @@ header {
     text-align: center;
 }
 
+.nav-un:hover, .nav-deux:hover {
+    border-top: 4px solid #0065FC;
+}
+
 .head-logo {
     width: 64%;
     height: 100px;
@@ -83,7 +87,7 @@ a:hover {
 
 @media screen and  (max-width: 1120px){
     .header-in {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     .header-in :nth-child(1){
@@ -105,6 +109,7 @@ a:hover {
     .header-in .nav-un:hover {
         border-bottom: 4px solid #0065FC;
         padding-bottom: 1em;
+        border-top: 0;
     }
 
     .header-in :nth-child(3){
@@ -118,6 +123,7 @@ a:hover {
     .header-in .nav-deux:hover {
         border-bottom: 4px solid #0065FC;
         padding-bottom: 1em;
+        border-top: 0;
     }
     
     .header-in :nth-child(4){
@@ -1986,14 +1992,14 @@ input:focus {
 }
 
 @media screen and (max-width: 1024px) {
-    .foot .a-propos p, .nos-hebergements p, .assistance p {
+    .foot .a-propos h2, .nos-hebergements h2, .assistance h2 {
         text-align: start;
     }
 }
 
-@media screen and (max-width: 900px) {
-    .foot p {
-        font-size: 12px;
+@media screen and (min-width: 901px) and (max-width: 940px) {
+    .foot .a-propos, .nos-hebergements, .assistance {
+        width: 210px;
     }
 }
 
